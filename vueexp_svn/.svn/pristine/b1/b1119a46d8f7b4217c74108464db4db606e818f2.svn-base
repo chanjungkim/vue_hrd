@@ -1,0 +1,76 @@
+ 안녕하세요.
+ 김민영 입니다.
+ 반갑습니다.
+ 현재 퍼블리싱 일을 하고
+ 프로그램 경험은 Java, JSP, My-sql, React.js, node.js.
+ 퍼블리싱, 프론트, 백엔드 경험이 있습니다.
+ 이번 수업은 Vue.js 역량을 기르기 위한 목적으로 듣게 되었습니다.
+ 요청하는 내용
+ -> 자바스크립트 실력을 늘릴 수 있었으면 좋겠습니다.
+ 
+ -------답-----------
+ 
+ 1.
+ 
+ 2.
+ for(item in items) 
+ 
+ 3.
+ 
+ 
+ 
+ 4.
+ let a = 1;
+ 
+ 
+ 5. 비동기 방식으로 처리
+ 
+ data:
+ method:
+ success:
+ error:
+ 
+ 
+ 6.
+"물건":[
+{"name":"물건명", 
+"price":"물건가격", 
+"count":"물건개수"}
+]
+
+ 
+9.<script>
+  $(document).ready(function(){
+	$('h1').on('click', function(){
+	  $(this).toggleClass('active');
+	});
+  });
+ </script>
+
+  <style>
+    h1.active{
+	background-color: red;}
+  </style>
+  
+  10.
+  <table>
+   <tr>
+ 	<td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+ 	<td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+ 	<td></td>
+    <td></td>
+    <td></td>
+   </tr>
+ </table>
+ 
+ <script>
+ </script>
+   

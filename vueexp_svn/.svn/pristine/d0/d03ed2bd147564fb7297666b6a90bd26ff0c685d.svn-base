@@ -1,0 +1,69 @@
+안녕하세요.
+반갑습니다.
+현재 앱개발을 하고 있습니다
+프로그램 경험은 짧습니다.
+자바스크립트와 프런트 앤드단 경험을 조금 있습니다
+이번 수업은 지식을 넓힐 목적으로 듣게 되었습니다.
+요청하는 내용..
+실무적인 내용(보안, 세션, 쿠키 관리, 소켓, 게시판, UI(css 다루기) 관련, 퍼블리셔와 차이?, 좋은 코드, MVC 등의 모델 설명 등)도 잘 알려주시면 감사하겠습니다.
+--답지
+1. 
+json: key value 형식으로 구성된 text기반의 데이터
+함수형 사용자 정의 객체: 처음 들어봄. 하지만 일반 객체와의 차이점이라면, 단순히 데이터 저장의 목적이라기 보다 OOP 프로그래밍 구현에 있어서 Object와 같는 성질을 갖도록 여러 자료형과 함수 등으로 구성된 단위.
+
+2. 
+for(i in obj){
+    console.log(i);
+}
+
+3.
+scope에 의한 차이
+
+4.
+let, var은 위와 같고
+const는 상수로 변하지 않는 값을 설정할 때 사용.
+
+그 외에 다른 언어 같이 int형 long형 등의 자료형은 따로 없다.
+
+5.
+ajax는 비동기 통신을 목적으로 javascript를 통하여 서버와 동신을 할 때 사용하는 기술이다.
+Asyncronous javascript and XML의 약자를 가짐.
+
+기억은 안나지만 대략적으로...
+$.ajax{
+    send: '/a/b/c',
+    data: m_data,
+    method: 'post',
+    success: {
+        // 성공처리
+    },
+    fail: {
+        // 실패 처리
+    },
+    error:{
+        // 에러 처리
+    }
+    // 그 밖에, 보내기 전, 보낸 이후 받기 전까지, 받은 후 등의 처리가 가능한 걸로 알고있음
+}
+
+6.
+const json= [{name: 'pencil', price:1000, amount:4},
+{name: 'eraser', price:500, amount:2},
+{name: 'crayon', price:5000, amount:1}]
+
+for( o in json){
+document.getElementById("m_table").insert("<tr>")
+    document.getElementById("m_table").insert("<td>o.name</td><td>o.price</td><td>o.amount</td>");
+document.getElementById("m_table").insert("</tr>")
+}
+
+7.
+for(let i = 0; i < 7 ; i++){
+    $('div').insert('h1');
+    $('div > h1')[i].css('background-color", (0xFFF)/((i+1)*2)); // gray scale...?
+}
+
+8. 
+forEach(obj){
+
+}

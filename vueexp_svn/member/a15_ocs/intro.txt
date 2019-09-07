@@ -1,0 +1,76 @@
+안녕하세요 선생님
+작년에 javascript 수업을 듣고 개발하는데 많은 도움을 받았습니다.
+이번에도 잘부탁드리겠습니다^ㅡ^;
+현재 개발일을 하고 있습니다.
+프로그램 경험은 java,js.jsp
+자바스크립트와 프런트 앤드단 개발경력 1년지났습니다.
+이번 수업은 spa 구조의 프런트단의 새로운 경험을 위해 듣게 되었습니다.
+요청하는 내용은 
+	그냥 열심히 하겠습니다. 
+
+//답안
+1.Json은 통신상 주고받을수 있도록 규격화된 객체로 string 화 해서 사용 한다.
+사용자 정의 객체의 차이점은 js상에 객체를 정의해서 사용하는 목적
+2.
+var arr = {a : aVal};
+for(var i in arr){
+	console.log(i ,":",arr[i]);
+} 
+
+3.let은 { 브레이스(블록)안에서만 사용할수 있는 스코프
+var는 함수내에서만 사용할수 있는 스코프
+
+4. es6 개변 매개변수가 뭔지를 모르겠지만, 콜백함수를 의미하는것 같다 ;;?
+es6잘모름
+
+5. ajax는 http통신으로, js에서 비동기 방식으로 통신하는 방법이다.
+복붙만 하다보니 ... 코드는 기억이 나질 않움
+$.ajax {
+	해당 프라퍼티들 있고, sucess를 통해 결과값을 리턴받아 처리한다.
+}
+
+6.
+<html>
+<head>
+</head>
+<body>
+	<table id="tt">
+	</table>
+</body>
+
+</html>
+<script type="text/javascript">
+var jsonArr = [
+{물건명 : 사과, 물건가격 : 1000, 물건갯수 : 1},
+{물건명 : 배, 물건가격 : 1000, 물건갯수 : 1},
+{물건명 : 수박, 물건가격 : 1000, 물건갯수 : 1}
+];
+
+for(var i in jsonArr){
+	var td= "<tr><td>"+ i.물건명 +"</td>"
+		  + "<td>"+ i.물건가격 +"</td>"
+		  + "<td>"+ i.물건갯수 +"</td></tr>";
+	querySelector("#tt").append(td);
+}
+</script>
+
+7.
+var 무지개 =$("div:h2");
+for(var i = 0; i<무지개.length;i++){
+	console.log(i.style.backgroudcolor);
+}
+
+
+8.
+var arr= [사과”,”바나나”,”딸기”];
+arr.forEach(function(idx,elm){
+	console.log(elm[idx]);
+});
+
+9.$("h1").on('click',funtion(){
+	this.color = "red";
+});
+10.
+
+
+

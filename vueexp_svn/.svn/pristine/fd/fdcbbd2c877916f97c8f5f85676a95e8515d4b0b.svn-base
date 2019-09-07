@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>03-06</title>
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="example">
+    x : <input type='text' v-model="x" /><br />
+    y : <input type='text' v-model="y" /><br />
+    덧셈 결과 : {{sum}}
+</div>
+<script type="text/javascript">
+/*
+# 인스턴스 라이프 사이클
+1. 메인 라이프 사이클
+	- creation(생성), mounting(로딩), 
+	  updating(수정), destruction(소멸)
+2. 세부 라이프 사이클
+	- beforeMount: 가상 dom이 랜더링, 패치되기 전에 데이터 변경 호출.
+	- beforeDestory : Vue 인스턴스가 제거되기 전에 호출.
+ 	- beforeXXXX/created/mounted/updated/destoryed
+ */
+
+var vm = new Vue({
+    el : "#example",
+    data : { x:0, y:0 },
+    beforeUpdate : function() {
+        console.log("before update")
+        console.log(this.x);
+    },
+    updated : function() {
+        console.log("update")
+        console.log(this.x);
+    },
+    computed : {
+        sum : function() {
+            var result = Number(this.x) + Number(this.y);
+            if (isNaN(result)) return  0;
+            else return result;
+        }
+    }
+})
+</script>
+</body>
+</html>

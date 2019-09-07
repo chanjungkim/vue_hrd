@@ -1,0 +1,64 @@
+안녕하세요.
+김기근 입니다.
+현재 프리랜서 개발자로 일하고 있습니다.
+프론트엔드 쪽에 관심이 있어서 수강 하게 되었습니다.
+
+
+1. json 객체는 {키 : 밸류} 형식으로 되어있으며 가볍다.
+사용자 정의 객체는 var 변수 = aa; 형식으로 사용한다.
+
+2.for(key in obj){
+     console.log("key:" + key +', '+ "value:" + obj[key]);
+   }
+
+
+3.var 는 타입을 자동으로 지정하지만
+let 은 타입을 정할수 있다?
+
+4.모름
+
+5.ajax 란 비동기 통신을 의미한다.
+
+ex)
+
+	$.ajax({
+		url : get/user,
+		method : 'post',
+		data:'test',
+		type:'json',
+		contentType:'text',
+		success:,
+		error:
+	});
+
+
+
+6.var goods = {
+	nm : 'a',
+	price : 100,
+	num : 6
+};
+
+for(key : goods){
+	console.log(goods[key]);
+}
+
+
+7.
+
+8. var fruit = [“사과”,”바나나”,”딸기”];
+fruit.forEach(function(cv, index, arr){
+	<h1>+index+','+cv+</h1>
+});
+
+9.한달 놀았더니 기억이 하나도 안나네요 큰일..ㅠㅠ
+<h1 id="aa">color</h1>
+
+<script>
+var color = ['red', 'blue', 'yellow', 'green'];
+$('#aa').on('click',function(){
+	document.body.style.background = color[Math.foor(Math.random * color.length)];
+});
+</script>
+
+10.

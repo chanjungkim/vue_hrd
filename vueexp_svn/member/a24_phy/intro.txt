@@ -1,0 +1,87 @@
+안녕하세요
+박호연 입니다.
+반갑습니다.
+현재 웹개발자 일을 하고 
+프로그램 경험은 jsp, java, nodejs, angular.
+자바스크립트와 프런트 앤드, 백앤드 단 경험 있습니다.
+이번 수업은 공부 목적으로 듣게 되었습니다.
+요청하는 내용..
+없습니다. 감사합니다. 
+--답지
+1.
+2.
+	for(object  in objects){
+		console.log(typeof(object));
+		
+		console.log(object.get('속성'));
+	}
+
+	
+
+3.
+4. var 변수 
+5.
+		$.ajax({
+			url: '***************',
+			data: {format: 'json'},
+			error: function() {
+				
+					},
+			dataType: 'jsonp',
+			success: function(data) {
+				console.log(data)
+			}
+		});
+
+
+
+6.
+
+	var a =	{ 
+	a1={"name":"John1","price":30,"amount":1},
+	a2={"name":"John2","price":40,"amount":2},
+	a3={"name":"John3","price":50,"amount":3}
+	}
+	
+	var html_str = "";
+	
+	for(b in a){
+		html_str += '<tr>'
+		html_str +=	'<td>+'b.get("name")+'<td>'
+		html_str +=	'<td>+'b.get("price")+'<td>'
+		html_str +=	'<td>+'b.get("amount")+'<td>'
+		html_str +=	'</tr>'
+	}
+	
+	$('#table').innerHTML(html_str);
+ 
+7.
+
+	var rainbow = ['빨','주','노','초','파','남','보'];
+	var str = "";
+	for(var i =0 ; i<6 ; i++){
+		str += '<h1>' + rainbow.get(i)+ '<h1>'
+	}
+	$('#divId').innerHTML(str);
+
+
+8.
+
+	var fruits = ["사과", "바나나", "딸기"];
+	fruits.forEach(myFunction);
+
+	function myFunction(item, index) {
+  		document.getElementById("demo").innerHTML += "<h1>"+  index + ":" + item + "</h1>"; 
+	}
+
+
+9.
+
+	<h1 id="demo" onclick="myFunction()">클릭</h1>
+
+	<script>
+	function myFunction() {
+	 document.getElementById("demo").style.color = "red";
+	}
+
+10.

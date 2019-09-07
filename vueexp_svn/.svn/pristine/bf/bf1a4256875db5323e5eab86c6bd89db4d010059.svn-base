@@ -1,0 +1,66 @@
+안녕하세요
+장희성입니다.
+반갑습니다
+현재 개발 업무를 하고
+프로그램 경험은 조금 해봤습니다.
+자바스크립트와 프런트 앤드단 경험도 조금 있습니다.
+이번 수업은 공부 목적으로 듣게 되었습니다.
+요청하는 내용..
+빨리끝내주세요.
+
+
+
+-----------
+1. new? 잘 모르겠다
+2. for( a in b){
+}
+
+3. 재선언 불가?
+4. Voin test(String a, String b)
+5.비동기 통신방식
+$.ajax({
+Data:json
+url:dsd.do
+succese:
+})
+
+6.
+var a[];
+var b[];
+var c[];
+
+for(var aa in a){
+	console.log(aa,a[aa]);
+}
+for(var bb in b){
+	console.log(bb,a[bb]);
+}
+for(var cc in c){
+	console.log(cc,a[cc]);
+}
+
+7.
+var duv = document.createElement('div');
+
+div.innerHTML = '<h2>빨강</h2>
+
+모ㅗ르겠다
+
+8.
+var b[] = ["사과","바나나","딸기"];
+int index = 0;
+ foreach(int a in b){
+	div.innerHTML = '<h1>번호:'+index+'배열'+a+'</h1>';
+	index++;
+}
+
+9.<h1 id="a">asdas</h1>
+
+
+window.onload = function() {
+ document.getElementById('a').onclick = function() {
+  this.style.color = 'red'; 
+  } 
+  };
+
+10. 모르겠다

@@ -1,0 +1,148 @@
+안녕하세요
+한동희입니다.
+현재 Front-end일을 하고 있으며
+프로그램 경험은 Java, C#, MS-SQL, C++, Vue.js, React.js 등이 있습니다.
+자바스크립트와 프론트엔드단 경험을 한 적이 있습니다.
+이번 수업은 Vue.js 프론트엔드 구조 이해를 돕고자 듣게 되었습니다.
+요청하는 내용 : 자바스크립트 상세하게 부탁드리겠습니다..
+
+1. 객체는 그 객체만 담아올 수 있고, 함수형은 함수안에 있는 것들까지 불러올 수 있다.
+
+
+
+	data(){
+	  return {
+	    result: [],
+	  }
+	}
+2. (let i for result in){
+	 	let a = i.result
+	}
+	{{a}}
+	
+	
+3. let : 가변형(변형 가능)
+   var : 정적(변해서는 안될 값)
+	
+	
+4. let i = 5;
+	i = 3;
+	console.log(i);
+	
+	
+	results : [],
+5. function getData(){
+	method:'get', path:'localhost8080/user'
+	.......
+	.then((data) =>
+		data.results = data;
+	)}
+	}
+	
+	6. data(){
+		return{
+			results : {
+			  name,
+			  price,
+			  count
+		  }
+		}
+	  }
+	  
+	  <table>
+	  	<tr v-for="(item,index) in results" :key="index">
+		  <td>
+		  {{results.name}}
+	  	  </td>
+	  	  <td>
+		  {{results.price}}
+	  	  </td>
+	  	  <td>
+		  {{results.count}}
+	  	  </td>
+	  	</tr>
+	  </table>
+	  
+	7. 무지개를 어떻게 만드는지 잘 모르겠습니다..
+	
+	8. 
+	
+	9. <html>
+		<head>
+		  <script type="text/javascript">
+		    
+		  </script>
+		</head>
+		<body>
+		  <h1 @click="clickBtn">클릭해주세요</h1>
+		</body>
+	   </html>
+	   
+	   data(){
+	   	 return{
+	   	 	methods: {
+	   	 	  clickBtn(){
+	   	 	    event.target.background = "black";
+	   	 	  }
+	   	 	}
+	   	 }
+	   }
+	   
+	   
+	10. <html>
+		  <head>
+		  </head>
+		  <body>
+		  	<table>
+		  	  <tr>
+		  	    <td @keyup="changeColor1" @keydown="changeColor2">
+		  	    1번째
+		  	    </td>
+		  	    <td @keyup="changeColor1" @keydown="changeColor2">
+		  	    2번쨰
+		  	    </td>
+		  	    <td @keyup="changeColor1" @keydown="changeColor2">
+		  	    3번째
+		  	    </td>
+		  	  </tr>
+		  	  <tr>
+		  	    <td @keyup="changeColor2" @keydown="changeColor3">
+		  	    4번째
+		  	    </td>
+		  	    <td @keyup="changeColor2" @keydown="changeColor3">
+		  	    5번째
+		  	    </td>
+		  	    <td @keyup="changeColor2" @keydown="changeColor3">
+		  	    6번째
+		  	    </td>
+		  	  </tr>
+		  	  <tr>
+		  	    <td @keyup="changeColor3" @keydown="changeColor1">
+		  	    7번째
+		  	    </td>
+		  	    <td @keyup="changeColor3" @keydown="changeColor1">
+		  	    8번째
+		  	    </td>
+		  	    <td @keyup="changeColor3" @keydown="changeColor1">
+		  	    9번째
+		  	    </td>
+		  	  </tr>
+		  	</table>
+		  </body>
+		</html>   
+		
+			data(){
+			  return{
+			    methods:{
+			      changeColor1(){
+			        event.target.background = "red"
+			      }
+			      changeColor2(){
+			        event.target.background = "yellow"
+			      }
+			      changeColor3(){
+			        event.target.background = "green"
+			      }
+			    }
+			  }
+			}

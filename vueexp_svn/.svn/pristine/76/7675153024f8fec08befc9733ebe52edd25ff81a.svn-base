@@ -1,0 +1,81 @@
+안녕하세요
+정수미 입니다.
+반갑습니다.
+현재 웹프로그래머 일을 하고 
+프로그램 경험은   asp.net.
+자바스크립트와 프런트 엔드단 경험은  녹아웃,부트스트랩 있습니다.
+이번 수업은 곧 진행할 프로젝트에서  vue 적용을 해볼까 싶은 목적으로 듣게 되었습니다.
+요청하는 내용 vue가 적용할만한지 알고 싶어서 수업 진도가 좀 많이 나갔으면 좋겠지만 ^^ 첨 접하시는 분도 있을테니..
+적용방법과 구조정도만 배우고 가고 싶습니다.
+-- 답지
+1. 차이점  : 
+        일반  json
+        [
+           Person :
+             { name : 정수미,
+               age : 00
+             }
+        ] 
+      사용자 정의 개체
+       [
+           Person :
+             { name : 한수정,
+               age : 00
+               address : 서울시 마포구
+             }
+        ] 
+  어떤 의미인지는 정확하게 모르지만.. json  객첼을 받아서 수정하거나 추가하는 것을 얘기하는게 아닐까 합니다.
+     
+2. 
+   for(var i; i< 10 : i++){
+      console.log(i)
+   }
+
+3. let 변수 : 변경 못하는 값?
+   var 변수 : 정의 되지 않고 임으로 설정할수 있는 변수  int, string 모든 값을 담을수 있다.
+   
+4. const 
+
+5. $.ajax {
+      datatype : json,
+      url : aaa.html,
+      async : false
+      success : { }
+   };
+
+    ajax 는 기본적으로 비동기적으로 호출하여 전체 로드 없이 부분적으로  페이지의 적용할수 있다.
+    
+ 6. var  과일 = 
+ 	[
+      { 물건명 : 사과, 물건가격 : 100, 물건갯수 : 2 }, 
+      { 물건명 : 배, 물건가격 : 200, 물건갯수 : 5 },
+      { 물건명 : 바나나, 물건가격 : 300, 물건갯수 : 3 }
+    ] 
+    
+     foreach (var p in  과일 ){
+       consloe.log(" 물건명 : " +  p.물건명 + " 물건가격 : " + p.물건가격 + " 물건갯수 : " + p.물건갯수)
+     }
+     
+ 7. var allDiv = $('div h2');
+    var color = {"red","green","white","black","orange","aqure","yellow"}
+    foreach (var div in  allDiv ){
+       int i = 0;
+       $(div).attr("backgroundcolor", color[i]);
+       i++
+    }
+     
+ 8. var 과일 = [
+ 		{ 1, "사과"},
+ 		{ 2, "바나나"},
+ 		{ 3, "딸기"}
+ 	]
+    foreach (var p in  과일 ){
+        consloe.log(p[0]  + " : " + p[1])
+	}
+
+ 9. $(h1).click(function() {
+ 	this.color = "green";
+ });
+
+10. 
+
