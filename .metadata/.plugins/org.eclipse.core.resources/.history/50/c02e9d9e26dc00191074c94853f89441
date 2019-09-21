@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>05-02</title>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="example">
+	<table>
+		<col width="100%"/>
+		<tr :style="style1" @mouseover.stop="overEvent" @mouseout.stop="outEvent">
+			<td>
+				<div>빨간색</div>
+			</td>
+		</tr>
+		<tr :style="style2" >
+			<td>
+				<div>주황색</div>
+			</td>
+		</tr>
+		<tr :style="style3" >
+			<td>
+				<div>노란색</div>
+			</td>
+		</tr>
+		<tr :style="style4" >
+			<td>
+				<div>초록색</div>
+			</td>
+		</tr>
+		<tr :style="style5" >
+			<td>
+				<div>파란색</div>
+			</td>
+		</tr>
+		<tr :style="style6" >
+			<td>
+				<div>남색</div>
+			</td>
+		</tr>
+		<tr :style="style7" >
+			<td>
+				<div>보라색</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript">
+var vm = new Vue({
+  el : "#example",
+  data : {
+    style1: { backgroundColor:"red", border:'solid 1px gray', textAlign:'center'},
+    style2: {backgroundColor:"orange", border:'solild 1px gray', textAlign:'center'},
+    style3: {backgroundColor:"yellow", border:'solild 1px gray', textAlign:'center'},
+    style4: {backgroundColor:"green", border:'solild 1px gray', textAlign:'center'},
+    style5: {backgroundColor:"blue", border:'solild 1px gray', textAlign:'center'},
+    style6: {backgroundColor:"purple", border:'solild 1px gray', textAlign:'center'},
+    style7: {backgroundColor:"purple", border:'solild 1px gray', textAlign:'center'}
+  },
+  methods : {
+    overEvent : function(e) {
+      this.style1.backgroundColor = "purple";
+      this.style1.color = "yellow";
+    },
+    outEvent : function(e) {
+      this.style1.backgroundColor = "aqua";
+      this.style1.color = "black";
+    }
+  }
+})
+</script>
+</body>
+</html>

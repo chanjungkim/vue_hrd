@@ -1,0 +1,21 @@
+2019-08-31 10:04:42,431 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-08-31 10:46:16,351 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-08-31 11:02:32,087 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-08-31 12:51:57,645 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-08-31 18:15:08,618 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-07 10:04:12,004 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-09-07 10:05:38,111 [Worker-14: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2019-09-07 10:05:38,405 [Worker-14: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2019-09-07 10:08:20,653 [Worker-8: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2019-09-07 10:17:20,280 [Worker-4: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2019-09-07 10:24:31,387 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-07 10:36:57,364 [Worker-15: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2019-09-07 10:36:57,636 [Worker-15: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2019-09-07 12:49:54,246 [Worker-36: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2019-09-07 12:51:39,946 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-07 12:51:41,034 [Worker-7: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2019-09-07 12:51:41,160 [Worker-7: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2019-09-07 12:55:56,177 [Worker-12: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2019-09-21 10:47:43,199 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-09-21 10:47:43,652 [Worker-10: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2019-09-21 10:47:43,855 [Worker-10: Check Injection] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: C:\z02_weekend\workspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store

@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+C:\z02_weekend\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1616335334.index
+1215580029.index
+3995075402.index
+3074138733.index
+4252127888.index
+2863315680.index
+876746907.index
+1002840010.index
+3859873284.index
+3833053894.index
+3114917197.index
+298873958.index
+331387393.index

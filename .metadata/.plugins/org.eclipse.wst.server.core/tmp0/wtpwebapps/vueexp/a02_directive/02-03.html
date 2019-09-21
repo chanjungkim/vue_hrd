@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>02-03</title>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+
+<body>
+  <div id="simple">
+    <input id="a" type="text" v-bind:value="message">
+    <br />
+    <img v-bind:src="imagePath" />
+    <h2 v-text="greet"></h2>
+    <h3>이건 v-text여... 그냥 보여주지...텍스트 그대로 보여줄 때 사용하라구~!</h3>
+    <div v-text="show"></div>
+    <h3>이건 v-html여... 렌더링을 해주지...태그를 새로 삽입하고 싶을 때 사용하라규우!</h3>
+    <div v-html="show"></div>
+  </div>
+
+  <script type="text/javascript">
+    var model = {
+      message: 'v-bind 디렉티브',
+      imagePath: "https://www.mbcsportsplus.com/data/board/attach/2018/08/20180813140440_lydrpige.jpg",
+      greet: "안녕하슈!",
+      show: "<h2>홍길동</h2><p>안녕하세요!"
+    };
+
+    var simple = new Vue({
+      el: '#simple',
+      data: model
+    })
+  </script>
+</body>
+
+</html>

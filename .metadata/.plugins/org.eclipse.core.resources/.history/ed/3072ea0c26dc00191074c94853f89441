@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>05-02</title>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="example">
+	<table>
+		<col width="100%"/>
+		<tr v-bind:style="style1" @mouseover.stop="overEvent" @mouseout.stop="outEvent">
+			<td></td>
+		</tr>
+		<tr v-bind:style="style2" >
+			<td></td>
+		</tr>
+		<tr v-bind:style="style3" >
+			<td></td>
+		</tr>
+		<tr v-bind:style="style4" >
+			<td></td>
+		</tr>
+		<tr v-bind:style="style5" >
+			<td></td>
+		</tr>
+		<tr v-bind:style="style6" >
+			<td></td>
+		</tr>
+		<tr v-bind:style="style7" >
+			<td></td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript">
+var vm = new Vue({
+  el : "#example",
+  data : {
+    style1: { backgroundColor:"red", border:'solid 1px gray', width:'100px', textAlign:'center'},
+    style2: {backgroundColor:"orange", border:'solild 1px gray', width:'100px', textAlign:'center'},
+    style3: {backgroundColor:"yellow", border:'solild 1px gray', width:'100px', textAlign:'center'},
+    style4: {backgroundColor:"green", border:'solild 1px gray', width:'100px', textAlign:'center'},
+    style5: {backgroundColor:"blue", border:'solild 1px gray', width:'100px', textAlign:'center'},
+    style6: {backgroundColor:"purple", border:'solild 1px gray', width:'100px', textAlign:'center'},
+    style7: {backgroundColor:"purple", border:'solild 1px gray', width:'100px', textAlign:'center'}
+  },
+  methods : {
+    overEvent : function(e) {
+      this.style1.backgroundColor = "purple";
+      this.style1.color = "yellow";
+    },
+    outEvent : function(e) {
+      this.style1.backgroundColor = "aqua";
+      this.style1.color = "black";
+    }
+  }
+})
+</script>
+</body>
+</html>

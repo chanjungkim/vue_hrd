@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>02-04</title>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</head>
+
+<body>
+  <div id="simple">
+    <h1>로그인이여~~~</h1>
+    <input type="text" v-model="username" :placeholder="usernamePlaceHolder" /><br>
+    <input type="password" v-model="password" :placeholder="passwordPlaceHolder" />
+    입력된 아이디:<h2>{{username}}</h2>
+    입력된 패스워드: <h2>{{password}}</h2>
+    입력된 이름 : <h2 v-html="username"></h2>
+  </div>
+</body>
+<script type="text/javascript">
+  var twoway = new Vue({
+    el: '#simple',
+    data: {
+      usernamePlaceHolder: '아이디를 입력해주세요',
+      passwordPlaceHolder: '비밀번호를를 입력해주세요',
+      username: "",
+      password: "",
+    }
+  })
+</script>
+</html>
